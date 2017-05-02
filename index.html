@@ -10,7 +10,7 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-laptop,.fa-user,.fa-cogs,.fa-download {font-size:200px}
+.fa-laptop,.fa-user,.fa-cogs,.fa-download, .fa-keyboard-o {font-size:200px}
 </style>
 <body>
 
@@ -127,6 +127,42 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <h1>Playing the Game</h1>
       <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="location.href='https://github.com/nathanieltan/ScreamGame/blob/master/README.md'">Link to README.md</button>
       <p class="w3-text-grey">Please reference the README.md on our original repository in order to play our SCREAM game! Have fun!</p>
+    </div>
+  </div>
+</div>
+  
+<!-- FIfth Grid -->
+<div id="Motivation">
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Implementation</h1>
+      <h5 class="w3-padding-32">Here is an overview of the main parts of our code.</h5>
+      <b>Main Part:</b>
+      <br>
+      <p class="w3-text-grey">Run this! Combines the player and the level for an A+ playing experience.</p>
+      <b>Level Editor:</b>
+      <br>
+      <p class="w3-text-grey">All individual levels are implemented in seperate files, all in one folder. The code specifies which level, which then finds the correct file in the level folder.</p>
+      <b>Player:</b>
+      <br>
+      <p class="w3-text-grey">The player set-up included generating the character, and integrating keyboard commands with character movement.</p>
+      <b>Environment:</b>
+      <br>
+      <p class="w3-text-grey">The environment set-up included generating the sky, the ground, the boxes, and the death-traps.</p>
+      <b>Voice Processing:</b>
+      <br>
+      <p class="w3-text-grey">The game records the character for a small amount of time, and then processes that information to determine whether it was loud enough to make the death traps fall.</p>
+      <b>Neural Network:</b>
+      <br>
+      <p class="w3-text-grey">This trains on the ‘a’, ‘e’, and ‘o’ vowel sounds to differentiate using machine learning methods, specifically a neural network algorithm.</p>
+      <b>Physics and Collision Detection Engine:</b>
+      <br>
+      <p class="w3-text-grey">The physics work off of real life kinematic equations, with the except of the use of trial and error to determine friction and gravity coefficients. The collision detection was fairly basic, as it was two-dimensional and the detection focused on rectangular boxes.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-keyboard-o w3-padding-64 w3-text-red"></i>
     </div>
   </div>
 </div>
