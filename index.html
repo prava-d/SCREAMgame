@@ -10,7 +10,7 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-laptop,.fa-user,.fa-cogs,.fa-download, .fa-keyboard-o {font-size:200px}
+.fa-laptop,.fa-user,.fa-cogs,.fa-download, .fa-keyboard-o, .fa-calendar {font-size:200px}
 </style>
 <body>
 
@@ -23,8 +23,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="#Team" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Team</a>
     <a href="#Motivation" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Motivation</a>
     <a href="#Game" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Game</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Implementation</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">History</a>
+    <a href="#Implementation" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Implementation</a>
+    <a href="#History" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">History</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Results</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Attributions</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Future</a>
@@ -35,9 +35,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="#Description" class="w3-bar-item w3-button w3-padding-large">Description</a>
     <a href="#Team" class="w3-bar-item w3-button w3-padding-large">Team</a>
     <a href="#Motivation" class="w3-bar-item w3-button w3-padding-large">Motivation</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Game</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Implementation 4</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">History</a>
+    <a href="#Game" class="w3-bar-item w3-button w3-padding-large">Game</a>
+    <a href="#Implemntation" class="w3-bar-item w3-button w3-padding-large">Implementation</a>
+    <a href="#History" class="w3-bar-item w3-button w3-padding-large">History</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Results</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Attributions</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Future</a>
@@ -132,7 +132,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </div>
   
 <!-- FIfth Grid -->
-<div id="Motivation">
+<div id="Implementation">
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
@@ -163,6 +163,31 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
     <div class="w3-third w3-center">
       <i class="fa fa-keyboard-o w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+  
+<!-- Sixth Grid -->
+<div id="History">
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-calendar w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Project History</h1>
+      <h5 class="w3-padding-32">As for actual code building, we built our code starting simple and making it more complex.</h5>
+      <p class="w3-text-grey">1 - Got voice input from the laptop and was able to quantify it. A basic level with the environment and a moving player (through keyboard, only could move back and forth) was created.</p>
+      <p class="w3-text-grey">2 - The voice input was turned into one amplitude. Collision detection and physics was included in the environment and the game environment. Character can jump and interact with the environment.</p>
+      <p class="w3-text-grey">3 - A threshold was set and a calibration period was introduced. Death traps were added.</p>
+      <p class="w3-text-grey">4 - Death traps fall based on voice input. The player can die when coming in contact with interactive traps or land traps.</p>
+      <h5 class="w3-padding-32">In terms of idea, our idea changed quite a bit.</h5>
+      <p class="w3-text-grey">1 - A three-dimensional game with volume and pitch controlling elevation of the landscape. Volume and pitch also control the path that the player has. The game would be played on separate laptops.</p>
+      <p class="w3-text-grey">2 - A three-dimensional game, played on one laptop, with volume and pitch controlling elevation of the landscape but the arrow keys controlling the path of the player.</p>
+      <p class="w3-text-grey">3 - A two-dimensional game, played on one laptop, with volume controlling elevation of the landscape and the arrow keys moving the player.</p>
+      <p class="w3-text-grey">4 - A two-dimensional game, played on one laptop, with volume controlling death traps that kill a character. The player is controlled by the keyboard.</p>
+      <p class="w3-text-grey">5 - A two-dimensional game, played on one laptop, with vowel sounds controlling the type of death trap that kills a character. The player is controlled by the keyboard.</p>
     </div>
   </div>
 </div>
